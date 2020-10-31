@@ -1,0 +1,11 @@
+creer le repositiry fichier(.gitignore)
+la commande git iniy=t.
+
+initialliser le projet 
+avec la commande npm init
+
+installation des librairies de dependance pour le backend
+avec la commande: npm i express express-validator bcryptjs config gravatar 
+jsonwebtoken mongoose request
+
+npm i -D nodemon concurrently
