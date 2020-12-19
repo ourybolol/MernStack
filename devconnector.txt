@@ -1,5 +1,5 @@
 creer le repositiry fichier(.gitignore)
-la commande git iniy=t.
+la commande git init.
 
 initialliser le projet 
 avec la commande npm init
@@ -9,3 +9,28 @@ avec la commande: npm i express express-validator bcryptjs config gravatar
 jsonwebtoken mongoose request
 
 npm i -D nodemon concurrently
+
+balance le projet sur github.
+git add .
+git commit -m 'Initial commit'
+
+
+installation du client
+npx create-react-app client
+
+installation des dependances de react
+npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension 
+moment react-moment
+
+pour les dependance de redux
+npm i uuid 
+
+
+deployer l'application sur heroku 
+
+dans le fichier package.json du server
+
+rajouter dans la partie scripts:
+
+"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client &&
+    npm run build --prefix-client"
